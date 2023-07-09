@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { useEffect, useState } from 'react'
-import { WhatsappShareButton,WhatsappIcon } from 'react-share'
+import { WhatsappShareButton,WhatsappIcon,FacebookIcon,FacebookShareButton,TwitterIcon,TwitterShareButton } from 'react-share'
 
 const inter = Inter({ subsets: ['latin'] })
 
