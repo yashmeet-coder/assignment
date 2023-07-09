@@ -9,3 +9,9 @@ body{
   width: 20rem;
   height: 20rem;
 }
+
+.icons{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}

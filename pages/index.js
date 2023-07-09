@@ -25,10 +25,16 @@ function Home({source}) {
         <meta property="og:image" content={source} />
       </Head>
       <img src={source} className='image'/>
-      <div>
-      <WhatsappShareButton url='https://example.com'>
+      <div className='icons'>
+      <WhatsappShareButton url='https://assignment-drab-iota.vercel.app/'>
         <WhatsappIcon size={32} round />
       </WhatsappShareButton>
+      <FacebookShareButton url='https://assignment-drab-iota.vercel.app/'>
+        <FacebookIcon size={32} round />
+      </FacebookShareButton>
+      <TwitterShareButton url='https://assignment-drab-iota.vercel.app/'>
+        <TwitterIcon size={32} round />
+      </TwitterShareButton>
       </div>
     </div>
   )
